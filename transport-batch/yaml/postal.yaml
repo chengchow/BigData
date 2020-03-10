@@ -1,0 +1,34 @@
+colorList:
+  - '#D7D3D3'
+  - '#D71203'
+  - '#C6D7A6'
+  - '#D7D726'
+  - '#8CD7BF'
+  - '#438FD7'
+  - '#AE81D7'
+  - '#D738A7'
+  - '#D791AC'
+
+titleName: '邮件数量'
+yUnit: '单位(亿件)'
+picType: 'line'
+
+long:
+  textTagList:
+    - wds: 'A0G0T05'
+      name: '包裹'
+    - wds: 'A0G0T06'
+      name: '期刊'
+    - wds: 'A0G0T07'
+      name: '汇票'
+
+  divUnit: 10000
+
+short:
+  textTagList:
+    - wds: 'A0G0T04'
+      name: '函件'
+
+  divUnit: 1
+
+totalLabel: '总计'

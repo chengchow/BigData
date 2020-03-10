@@ -1,0 +1,98 @@
+#!/bin/bash
+#chkconfig: - 75 25
+
+. /etc/init.d/functions
+
+RETVAL=0
+
+SIGN="transport-service"
+HOME="/opt/echarts/transport-service"
+CONF="$HOME/run.conf"
+ARG="run:app"
+PID_FILE="$HOME/logs/${SIGN}.pid"
+PY="/opt/py373/bin/python3"
+GUNICORN='/opt/py373/bin/gunicorn'
+
+RUN_CMD="cd $HOME && $PY $GUNICORN $ARG -c $CONF"
+
+judge_mod () {
+    if [ ! -f $PID_FILE ];then
+        echo 2
+    else
+        PS=$(ps aux | grep `cat $PID_FILE` | grep -iv grep | wc -l)
+        if [ $PS != 0 ];then
+            echo 0
+        else
+            echo 1
+        fi
+    fi
+}
+
+status_mod () {
+    JUDGE=$(judge_mod)
+    if [ $JUDGE = 0 ];then
+        echo -e "The service $SIGN(PID: `cat $PID_FILE`) is running."
+    elif [ $JUDGE = 1 ];then
+        echo -e "The service $SIGN is stopped, but pidfile is exist. "
+    else
+        echo -e "The service $SIGN is stopped."
+    fi
+}
+
+start_mod () {
+    JUDGE=$(judge_mod)
+    if [ $JUDGE != 0 ];then
+        if [ $JUDGE = 1 ];then
+             /bin/rm -f $PID_FILE
+        fi
+        echo -en "starting service: $SIGN ...... "
+        daemon $RUN_CMD > /dev/null 2>&1
+        RETVAL=$?
+        sleep 3
+        if [ -f $PID_FILE ];then
+             echo -e "[ OK ]"
+        else
+             echo -e "[ FAILURE ]"
+        fi
+    else
+        echo -e "The service: $SING(PID: `cat $PID_FILE`) is running."
+    fi
+}
+
+stop_mod () {
+    JUDGE=$(judge_mod)
+    if [ $JUDGE != 2 ];then
+        echo -en "stopping service: $SIGN ...... "
+        kill `cat $PID_FILE` > /dev/null 2>&1
+        RETVAL=$?
+        if [ $RETVAL = 0 ];then
+             echo -e "[ OK ]"
+             /bin/rm -f $PID_FILE
+        else 
+             echo -e "[ FAILURE ]"
+        fi
+    else
+        /bin/rm -f $PID_FILE
+        echo -e "The service: $SIGN is stopped."
+    fi
+}
+
+
+case $1 in
+    start)
+        start_mod
+    ;;
+    stop)
+        stop_mod
+    ;;
+    restart)
+        stop_mod
+        start_mod
+    ;;
+    status)
+        status_mod
+    ;;
+    *)
+        echo -e "Usage: `basename $0` (start|stop|restart|status)"
+    ;;
+esac

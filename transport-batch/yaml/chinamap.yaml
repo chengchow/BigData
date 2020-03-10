@@ -1,0 +1,26 @@
+lineList:
+  - - name: '北京'
+    - name: '漠河'
+      value: 50
+  - - name: '北京'
+    - name: '上海'
+      value: 100
+  - - name: '北京'
+    - name: '三沙'
+      value: 50
+  - - name: '北京'
+    - name: '喀什'
+      value: 50
+  - - name: '北京'
+    - name: '日喀则'
+      value: 50
+  - - name: '北京'
+    - name: '天津'
+      value: 100
+  - - name: '北京'
+    - name: '同江'
+      value: 50
+  - - name: '北京'
+    - name: '重庆'
+      value: 100
+

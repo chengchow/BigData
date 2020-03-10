@@ -1,0 +1,28 @@
+colorList:
+  - '#AAAAAA'
+  - '#D71203'
+  - '#C6D7A6'
+  - '#D7D726'
+  - '#8CD7BF'
+  - '#438FD7'
+  - '#AE81D7'
+  - '#D738A7'
+  - '#D791AC'
+
+titleName: '旅客运输平均运距'
+yUnit: '单位(公里)'
+picType: 'line'
+
+textTagList:
+  - wds: 'A0G0801'
+    name: '客运'
+  - wds: 'A0G0802'
+    name: '铁路'
+  - wds: 'A0G0803'
+    name: '公路'
+  - wds: 'A0G0804'
+    name: '水运'
+  - wds: 'A0G0805'
+    name: '民航'
+
+divUnit: 1

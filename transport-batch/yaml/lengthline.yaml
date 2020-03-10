@@ -1,0 +1,38 @@
+colorList:
+  - '#D7D3D3'
+  - '#D71203'
+  - '#C6D7A6'
+  - '#D7D726'
+  - '#8CD7BF'
+  - '#438FD7'
+  - '#AE81D7'
+  - '#D738A7'
+  - '#D791AC'
+
+titleName: '运输线路长度'
+yUnit: '单位(万公里)'
+picType: 'line'
+
+long:
+  textTagList:
+    - wds: 'A0G020A'
+      name: '航线'
+    - wds: 'A0G020B'
+      name: '国际航线'
+
+  divUnit: 10000
+
+short:
+  textTagList:
+    - wds: 'A0G0201'
+      name: '铁路'
+    - wds: 'A0G0205'
+      name: '高速公路'
+    - wds: 'A0G0209'
+      name: '内河航道'
+    - wds: 'A0G020C'
+      name: '输油管道'
+    - wds: 'A0G0203'
+      name: '公路'
+
+  divUnit: 1

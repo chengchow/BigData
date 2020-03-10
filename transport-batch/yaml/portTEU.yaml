@@ -1,0 +1,54 @@
+## 颜色范围
+colorList: 
+  - "#f845f1"
+  - "#ad46f3"
+  - "#5045f6"
+  - "#4777f5"
+  - "#44aff0"
+  - "#45dbf7"
+  - "#f6d54a"
+  - "#f69846"
+  - "#ff4343"
+  - "#584BFF"
+  - "#F845F1"
+
+## 图表Y轴显示单位
+yUnit: '(百万吨)'
+divUnit: 100
+
+## 图表类型
+picType: 'pie'
+
+textTagList:
+#  - name: "港口总计"
+#    code: "A0G0O01"
+  - name: "大连港"
+    code: "A0G0O02"
+  - name: "营口港"
+    code: "A0G0O03"
+  - name: "秦皇岛港"
+    code: "A0G0O04"
+  - name: "天津港"
+    code: "A0G0O05"
+  - name: "烟台港"
+    code: "A0G0O06"
+  - name: "青岛港"
+    code: "A0G0O07"
+  - name: "日照港"
+    code: "A0G0O08"
+  - name: "上海港"
+    code: "A0G0O09"
+  - name: "连云港港"
+    code: "A0G0O0A"
+  - name: "舟山港"
+    code: "A0G0O0B"
+  - name: "汕头港"
+    code: "A0G0O0C"
+  - name: "广州港"
+    code: "A0G0O0D"
+  - name: "湛江港"
+    code: "A0G0O0E"
+  - name: "海口港"
+    code: "A0G0O0F"
+  - name: "八所港"
+    code: "A0G0O0G"

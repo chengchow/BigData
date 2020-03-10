@@ -1,0 +1,42 @@
+## 图表内容标签
+textTagList:
+  - wds: 'A0G0101'
+    name: '铁路'
+  - wds: 'A0G0102'
+    name: '公路'
+  - wds: 'A0G0104'
+    name: '水运'
+  - wds: 'A0G0105'
+    name: '空运'
+  - wds: 'A0G0108'
+    name: '邮政'
+
+## Total/Other列表标签
+otherTagList: 
+  - 'A0G0103'
+  - 'A0G0106'
+  - 'A0G0107'
+  - 'A0G0109'
+otherName: '其他'
+
+## 图表色彩
+colorList:
+  - '#FF4949'
+  - '#FFA74D'
+  - '#FFEA51'
+  - '#4BF0FF'
+  - '#44AFF0'
+  - '#4E82FF'
+  - '#584BFF'
+  - '#BE4DFF'
+  - '#F845F1'
+
+## 图表标题名称
+titleName: '运输人员就业数'
+
+## 图表Y轴显示单位
+yUnit: '单位(万人)'
+divUnit: 10000
+
+## 图表类型
+picType: 'line'

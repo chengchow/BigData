@@ -1,0 +1,30 @@
+colorList:
+  - '#AAAAAA'
+  - '#D71203'
+  - '#C6D7A6'
+  - '#D7D726'
+  - '#8CD7BF'
+  - '#438FD7'
+  - '#AE81D7'
+  - '#D738A7'
+  - '#D791AC'
+
+titleName: '货物运输平均运距'
+yUnit: '单位(公里)'
+picType: 'line'
+
+textTagList:
+  - wds: 'A0G0901'
+    name: '货运'
+  - wds: 'A0G0902'
+    name: '铁路'
+  - wds: 'A0G0903'
+    name: '公路'
+  - wds: 'A0G0904'
+    name: '水运'
+  - wds: 'A0G0905'
+    name: '民航'
+  - wds: 'A0G0906'
+    name: '管道'
+
+divUnit: 1

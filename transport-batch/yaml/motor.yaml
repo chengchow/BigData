@@ -1,0 +1,96 @@
+## 图表内容标签
+textTagList:
+  - sign: 'civilian'
+    name: '民用汽车拥有量'
+    master:
+      radius: ["0%", "15%"]
+      center: ["28%", "28%"]
+    branch:
+      radius: ['20%', '30%']
+      center: ['28%', '28%']
+    total:
+      - wds: 'A0G0I01'
+        name: '民用汽车拥有量'
+    specific:
+      - wds: 'A0G0I02'
+        name: '载客汽车'
+      - wds: 'A0G0I07'
+        name: '载货汽车'
+
+  - sign: 'private'
+    name: '私人汽车拥有量'
+    master:
+      radius: ["0%", "15%"]
+      center: ["70%", "28%"]
+    branch:
+      radius: ['20%', '30%']
+      center: ['70%', '28%']
+    total:
+      - wds: 'A0G0J01'
+        name: '私人汽车拥有量'
+    specific:
+      - wds: 'A0G0J02'
+        name: '载客汽车'
+      - wds: 'A0G0J07'
+        name: '载货汽车'
+
+  - sign: 'register'
+    name: '新注册汽车拥有量'
+    master:
+      radius: ["0%", "15%"]
+      center: ["28%", "70%"]
+    branch:
+      radius: ['20%', '30%']
+      center: ['28%', '70%']
+    total:
+      - wds: 'A0G0K01'
+        name: '新注册汽车拥有量'
+    specific:
+      - wds: 'A0G0K02'
+        name: '载客汽车'
+      - wds: 'A0G0K07'
+        name: '载货汽车'
+
+  - sign: 'operation'
+    name: '公路运营汽车量'
+    master:
+      radius: ["0%", "15%"]
+      center: ["70%", "70%"]
+    branch:
+      radius: ['20%', '30%']
+      center: ['70%', '70%']
+    total:
+      - wds: 'A0G0L01'
+        name: '公路运营汽车量'
+    specific:
+      - wds: 'A0G0L02'
+        name: '载客汽车'
+      - wds: 'A0G0L04'
+        name: '载货汽车'
+
+## 图表色彩
+colorList:
+  - '#FF4949'
+  - '#FFA74D'
+  - '#FFEA51'
+  - '#4BF0FF'
+  - '#44AFF0'
+  - '#4E82FF'
+  - '#584BFF'
+  - '#BE4DFF'
+  - '#F845F1'
+  - '#4BF0FF'
+  - '#44AFF0'
+
+## 图表标题名称
+titleName: ''
+
+## 图表Y轴显示单位
+yUnit: '(百万辆)'
+divUnit: 100
+
+## 图表类型
+picType: ''
+
+## Other列表标签
+otherLabel: '其他'

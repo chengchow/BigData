@@ -1,0 +1,14 @@
+2020/03/04 16:05:22 PM base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020/03/04 16:05:22 PM base.py[line:881] INFO Added job "main" to job store "default"
+2020/03/04 16:05:22 PM base.py[line:166] INFO Scheduler started
+2020/03/04 16:05:38 PM base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2020/03/04 16:05:38 PM base.py[line:881] INFO Added job "main" to job store "default"
+2020/03/04 16:05:38 PM base.py[line:166] INFO Scheduler started
+2020/03/04 16:06:00 PM base.py[line:123] INFO Running job "main (trigger: cron[day_of_week='*', hour='*', minute='6', second='0'], next run at: 2020-03-04 16:06:00 CST)" (scheduled at 2020-03-04 16:06:00+08:00)
+2020/03/04 16:08:11 PM run.py[line:50] INFO express数据获取成功
+2020/03/04 16:08:41 PM run.py[line:50] INFO employ数据获取成功
+2020/03/04 16:10:38 PM run.py[line:50] INFO postal数据获取成功
+2020/03/04 16:20:51 PM run.py[line:50] INFO portTEU数据获取成功
+2020/03/04 16:51:31 PM run.py[line:50] INFO railwaytraveller数据获取成功
+2020/03/04 16:51:32 PM run.py[line:50] INFO chinamap数据获取成功
+2020/03/04 17:06:05 PM base.py[line:978] WARNING Execution of job "main (trigger: cron[day_of_week='*', hour='*', minute='6', second='0'], next run at: 2020-03-04 17:06:00 CST)" skipped: maximum number of running instances reached (1)

@@ -1,0 +1,37 @@
+## 图表内容标签
+textTagList:
+  - wds: 'A0G0U01'
+    name: '快递总量'
+  - wds: 'A0G0U02'
+    name: '同城快递'
+  - wds: 'A0G0U03'
+    name: '异地快递'
+  - wds: 'A0G0U04'
+    name: '国际快递'
+  - wds: 'A0G0U05'
+    name: '快递收入(亿元)'
+
+## 图表色彩
+colorList:
+  - "#A0FFE0"
+  - "#D71203"
+  - "#C6D7A6"
+  - "#D7D726"
+  - "#8CD7BF"
+  - "#438FD7"
+  - "#AE81D7"
+  - "#D738A7"
+  - "#D791AC"
+
+## 图表标题名称
+titleName: '快递量'
+
+## 图表Y轴显示单位
+yUnit: '单位(亿件)'
+divUnit: 10000
+
+## 图表类型
+picType: 'line'
+
+## Other列表标签
+# otherLabel: ''

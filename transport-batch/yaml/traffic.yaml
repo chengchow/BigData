@@ -1,0 +1,112 @@
+## 图表内容标签
+textTagList:
+  - sign: 'passenger'
+    name: '客运量(亿人)'
+    master:
+      radius: ["0%", "15%"]
+      center: ["28%", "28%"]
+    branch:
+      radius: ['20%', '30%']
+      center: ['28%', '28%']
+    total:
+      - wds: 'A0G0401'
+        name: '客运总量'
+    specific:
+      - wds: 'A0G0402'
+        name: '铁路'
+      - wds: 'A0G0406'
+        name: '公路'
+      - wds: 'A0G0407'
+        name: '水运'
+      - wds: 'A0G0408'
+        name: '航空'
+
+  - sign: 'passengerflow'
+    name: '客运周转量(万亿人公里)'
+    master:
+      radius: ["0%", "15%"]
+      center: ["70%", "28%"]
+    branch:
+      radius: ['20%', '30%']
+      center: ['70%', '28%']
+    total:
+      - wds: 'A0G0501'
+        name: '客运周转总量'
+    specific:
+      - wds: 'A0G0502'
+        name: '铁路'
+      - wds: 'A0G0506'
+        name: '公路'
+      - wds: 'A0G0507'
+        name: '水运'
+      - wds: 'A0G0508'
+        name: '航空'
+
+  - sign: 'freight'
+    name: '货运量(亿吨)'
+    master:
+      radius: ["0%", "15%"]
+      center: ["28%", "70%"]
+    branch:
+      radius: ['20%', '30%']
+      center: ['28%', '70%']
+    total:
+      - wds: 'A0G0601'
+        name: '货运总量'
+    specific:
+      - wds: 'A0G0602'
+        name: '铁路'
+      - wds: 'A0G0606'
+        name: '公路'
+      - wds: 'A0G0607'
+        name: '水运'
+      - wds: 'A0G0609'
+        name: '航空'
+
+  - sign: 'freightflow'
+    name: '货运周转量(万亿吨公里)'
+    master:
+      radius: ["0%", "15%"]
+      center: ["70%", "70%"]
+    branch:
+      radius: ['20%', '30%']
+      center: ['70%', '70%']
+    total:
+      - wds: 'A0G0701'
+        name: '货运周转总量'
+    specific:
+      - wds: 'A0G0702'
+        name: '铁路'
+      - wds: 'A0G0706'
+        name: '公路'
+      - wds: 'A0G0707'
+        name: '水运'
+      - wds: 'A0G0709'
+        name: '航空'
+
+## 图表色彩
+colorList:
+  - '#FF4949'
+  - '#FFA74D'
+  - '#FFEA51'
+  - '#4BF0FF'
+  - '#44AFF0'
+  - '#4E82FF'
+  - '#584BFF'
+  - '#BE4DFF'
+  - '#F845F1'
+  - '#4BF0FF'
+  - '#44AFF0'
+
+## 图表标题名称
+titleName: ''
+
+## 图表Y轴显示单位
+yUnit: ''
+divUnit: 10000
+
+## 图表类型
+picType: ''
+
+## Other列表标签
+otherLabel: '其他'

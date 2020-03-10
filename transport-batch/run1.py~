@@ -1,0 +1,55 @@
+# -*- coding: utf-8 -*-
+"""
+定时处理hive数据，结果输出到mysql
+"""
+
+import os,sys
+import datetime
+import logging
+import threading
+
+from apscheduler.schedulers.blocking import BlockingScheduler
+
+nowPath=os.path.dirname(os.path.abspath(__file__))
+homePath=nowPath
+sys.path.append(homePath)
+
+import config
+appPath=config.appPath
+sys.path.append(appPath)
+
+## 堵塞方式运行计划任务
+scheduler = BlockingScheduler()
+
+## 调用日志格式
+config.log
+
+def employ():
+    from employ import main as employ
+    try:
+        employ(self)
+        logging.info("employ数据获取成功. ")
+    except Exception as e:
+        logging.error("employ数据获取失败. "+e)
+
+def length():
+    from length import main as length
+    try:
+        length()
+        logging.info("length数据获取成功. ")
+    except Exception as e:
+        logging.error("length数据获取失败. "+e)
+
+
+class myThread(threading.Thread):
+    def run(self):
+        employ()
+        length()
+
+@scheduler.scheduled_job("cron", day_of_week='*', hour='*', minute='*/5', second='0')
+def main () :
+    c=myThread()
+    c.start()
+
+if __name__ == '__main__':
+    scheduler.start()

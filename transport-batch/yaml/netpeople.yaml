@@ -1,0 +1,29 @@
+## 图表内容标签
+textTagList:
+  - wds: 'A0G0Z01'
+    name: '网民数'
+
+## 图表色彩
+colorList:
+  - "#A0FFE0"
+  - "#D71203"
+  - "#C6D7A6"
+  - "#D7D726"
+  - "#8CD7BF"
+  - "#438FD7"
+  - "#AE81D7"
+  - "#D738A7"
+  - "#D791AC"
+
+## 图表标题名称
+titleName: '网民数'
+
+## 图表Y轴显示单位
+yUnit: '单位(亿人)'
+divUnit: 10000
+
+## 图表类型
+picType: 'line'
+
+## Other列表标签
+# otherLabel: ''

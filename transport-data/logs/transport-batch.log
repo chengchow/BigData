@@ -1,0 +1,43 @@
+01/13/2020 10:53:23 AM base.py[line:440] INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+01/13/2020 10:53:23 AM base.py[line:881] INFO Added job "main" to job store "default"
+01/13/2020 10:53:23 AM base.py[line:166] INFO Scheduler started
+01/13/2020 10:55:00 AM base.py[line:123] INFO Running job "main (trigger: cron[day_of_week='*', hour='*', minute='*/5', second='0'], next run at: 2020-01-13 10:55:00 CST)" (scheduled at 2020-01-13 10:55:00+08:00)
+01/13/2020 10:55:03 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G01"}]成功
+01/13/2020 10:55:05 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G02"}]成功
+01/13/2020 10:55:08 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G04"}]成功
+01/13/2020 10:55:10 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G05"}]成功
+01/13/2020 10:55:12 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G06"}]成功
+01/13/2020 10:55:15 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G07"}]成功
+01/13/2020 10:55:23 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G08"}]成功
+01/13/2020 10:55:25 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G09"}]成功
+01/13/2020 10:55:28 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0F"}]成功
+01/13/2020 10:55:31 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0G"}]成功
+01/13/2020 10:55:34 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0I"}]成功
+01/13/2020 10:55:36 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0J"}]成功
+01/13/2020 10:55:38 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0K"}]成功
+01/13/2020 10:55:41 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0L"}]成功
+01/13/2020 10:55:43 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0O"}]成功
+01/13/2020 10:55:47 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0P02"}]成功
+01/13/2020 10:55:49 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0P03"}]成功
+01/13/2020 10:55:52 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0Q02"}]成功
+01/13/2020 10:55:55 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0Q03"}]成功
+01/13/2020 10:55:58 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0T"}]成功
+01/13/2020 10:56:00 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0U"}]成功
+01/13/2020 10:56:02 AM url2hive.py[line:85] INFO 爬取数据[{"wdcode":"zb","valuecode":"A0G0Z"}]成功
+01/13/2020 10:56:04 AM url2hive.py[line:115] INFO 数据写入本地成功
+01/13/2020 10:56:04 AM client.py[line:508] INFO Uploading '/opt/hadoop/transport-batch/tmp/transport.csv' to '/transport/tmp/transportition.csv'.
+01/13/2020 10:56:04 AM client.py[line:1005] INFO Listing '/transport/tmp/transportition.csv'.
+01/13/2020 10:56:05 AM client.py[line:453] INFO Writing to '/transport/tmp/transportition.csv'.
+01/13/2020 10:57:24 AM url2hive.py[line:118] INFO 数据上传hadoop成功
+01/13/2020 10:57:29 AM hive.py[line:359] INFO USE `bigdata`
+01/13/2020 10:57:50 AM url2hive.py[line:38] INFO 数据库连接成功
+01/13/2020 10:57:50 AM hive.py[line:359] INFO LOAD DATA INPATH "/transport/tmp/transportition.csv" OVERWRITE INTO TABLE transport
+01/13/2020 10:57:57 AM url2hive.py[line:47] WARNING 数据库数据插入失败，开始重置数据库
+01/13/2020 10:57:57 AM hive.py[line:359] INFO drop table transport
+01/13/2020 10:58:07 AM url2hive.py[line:60] WARNING 删除表成功
+01/13/2020 10:58:07 AM hive.py[line:359] INFO create table if not exists transport (                      code string,                      value float,                      wds string,                      year int,                      unixtime int )                      row format delimited fields terminated by ','                      tblproperties('skip.header.line.count'='1')                     
+01/13/2020 10:58:08 AM url2hive.py[line:64] INFO 重置数据库成功
+01/13/2020 10:58:08 AM hive.py[line:359] INFO LOAD DATA INPATH "/transport/tmp/transportition.csv" OVERWRITE INTO TABLE transport
+01/13/2020 10:58:09 AM url2hive.py[line:66] INFO 数据库数据插入成功
+01/13/2020 10:58:09 AM transport-batch.py[line:45] INFO 存储数据到hive成功
+01/13/2020 10:58:09 AM base.py[line:144] INFO Job "main (trigger: cron[day_of_week='*', hour='*', minute='*/5', second='0'], next run at: 2020-01-13 11:00:00 CST)" executed successfully

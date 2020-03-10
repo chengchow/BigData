@@ -1,0 +1,89 @@
+## 颜色范围
+colorMin: 'rgba(175,238,238, 0)'
+colorMax: 'rgba(    47,79,79, .2)'
+
+## 图表标题名称
+titleName: '铁运站客运量'
+subName: '数据来源国家统计局官网)'
+subLink: 'http://data.stats.gov.cn/easyquery.htm?cn=C01&zb=A0G0F&sj=2014'
+
+## 图表Y轴显示单位
+yUnit: '百万人'
+divUnit: 100
+
+## 图表类型
+picType: 'map'
+
+textTagList:
+  - name: "哈尔滨站"
+    code: "A0G0F01"
+  - name: "沈阳站"
+    code: "A0G0F02"
+  - name: "鞍山站"
+    code: "A0G0F03"
+  - name: "长春站"
+    code: "A0G0F04"
+  - name: "本溪站"
+    code: "A0G0F05"
+  - name: "锦州站"
+    code: "A0G0F06"
+  - name: "吉林站"
+    code: "A0G0F07"
+  - name: "北京站"
+    code: "A0G0F08"
+  - name: "北京南站"
+    code: "A0G0F09"
+  - name: "北京西站"
+    code: "A0G0F0A"
+  - name: "天津站"
+    code: "A0G0F0B"
+  - name: "石家庄站"
+    code: "A0G0F0C"
+  - name: "太原站"
+    code: "A0G0F0D"
+  - name: "郑州站"
+    code: "A0G0F0E"
+  - name: "武昌站"
+    code: "A0G0F0F"
+  - name: "洛阳站"
+    code: "A0G0F0G"
+  - name: "西安站"
+    code: "A0G0F0H"
+  - name: "济南站"
+    code: "A0G0F0I"
+  - name: "徐州站"
+    code: "A0G0F0J"
+  - name: "南京站"
+    code: "A0G0F0K"
+  - name: "蚌埠站"
+    code: "A0G0F0L"
+  - name: "镇江站"
+    code: "A0G0F0M"
+  - name: "常州站"
+    code: "A0G0F0N"
+  - name: "无锡站"
+    code: "A0G0F0O"
+  - name: "苏州站"
+    code: "A0G0F0P"
+  - name: "上海站"
+    code: "A0G0F0Q"
+  - name: "杭州站"
+    code: "A0G0F0R"
+  - name: "南昌站"
+    code: "A0G0F0S"
+  - name: "广州站"
+    code: "A0G0F0T"
+  - name: "深圳站"
+    code: "A0G0F0U"
+  - name: "柳州站"
+    code: "A0G0F0V"
+  - name: "成都站"
+    code: "A0G0F0W"
+  - name: "重庆站"
+    code: "A0G0F0X"
+  - name: "贵阳站"
+    code: "A0G0F0Y"
+  - name: "兰州站"
+    code: "A0G0F0Z"
+  - name: "乌鲁木齐站"
+    code: "A0G0F10"

@@ -1,0 +1,85 @@
+## 颜色范围
+colorMin: 'rgba(175,238,238, 0)'
+colorMax: 'rgba(    47,79,79, .2)'
+
+## 图表标题名称
+titleName: '主要港口万吨泊位数'
+subName: '数据来源国家统计局官网'
+subLink: 'http://data.stats.gov.cn'
+
+## 图表Y轴显示单位
+yUnit: '个'
+divUnit: 1
+
+## 图表类型
+picType: 'map'
+
+textTagList:
+  - name: "大连港"
+    code: "A0G0P0302"
+  - name: "营口港"
+    code: "A0G0P0303"
+  - name: "秦皇岛港"
+    code: "A0G0P0304"
+  - name: "天津港"
+    code: "A0G0P0305"
+  - name: "烟台港"
+    code: "A0G0P0306"
+  - name: "青岛港"
+    code: "A0G0P0307"
+  - name: "日照港"
+    code: "A0G0P0308"
+  - name: "上海海港"
+    code: "A0G0P0309"
+  - name: "连云港港"
+    code: "A0G0P030A"
+  - name: "宁波舟山港"
+    code: "A0G0P030B"
+  - name: "汕头港"
+    code: "A0G0P030C"
+  - name: "广州港"
+    code: "A0G0P030D"
+  - name: "湛江港"
+    code: "A0G0P030E"
+  - name: "海口港"
+    code: "A0G0P030F"
+  - name: "八所港"
+    code: "A0G0P030G"
+  - name: "重庆港"
+    code: "A0G0Q0302"
+  - name: "万州港"
+    code: "A0G0Q0303"
+  - name: "宜昌港"
+    code: "A0G0Q0304"
+  - name: "武汉港"
+    code: "A0G0Q0305"
+  - name: "黄石港"
+    code: "A0G0Q0306"
+  - name: "九江港"
+    code: "A0G0Q0307"
+  - name: "安庆港"
+    code: "A0G0Q0308"
+  - name: "池州港"
+    code: "A0G0Q0309"
+  - name: "铜陵港"
+    code: "A0G0Q030A"
+  - name: "芜湖港"
+    code: "A0G0Q030B"
+  - name: "马鞍山港"
+    code: "A0G0Q030C"
+  - name: "南京港"
+    code: "A0G0Q030D"
+  - name: "镇江港"
+    code: "A0G0Q030E"
+  - name: "泰州港"
+    code: "A0G0Q030F"
+  - name: "扬州港"
+    code: "A0G0Q030G"
+  - name: "江阴港"
+    code: "A0G0Q030H"
+  - name: "常州港"
+    code: "A0G0Q030I"
+  - name: "南通港"
+    code: "A0G0Q030J"
+  - name: "上海河港"
+    code: "A0G0Q030K"

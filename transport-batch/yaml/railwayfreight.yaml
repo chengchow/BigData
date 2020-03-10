@@ -1,0 +1,87 @@
+## 颜色范围
+colorMin: 'rgba(175,238,238, 0)'
+colorMax: 'rgba(    47,79,79, .2)'
+
+## 图表标题名称
+titleName: '铁运站货运量'
+subName: '数据来源国家统计局官网'
+subLink: 'http://data.stats.gov.cn'
+
+## 图表Y轴显示单位
+yUnit: '百万吨'
+divUnit: 100
+
+## 图表类型
+picType: 'map'
+
+textTagList:
+  - name: "竣德站"
+    code: "A0G0G01"
+  - name: "鹤岗站"
+    code: "A0G0G02"
+  - name: "双鸭山站"
+    code: "A0G0G03"
+  - name: "七台河站"
+    code: "A0G0G04"
+  - name: "恒山站"
+    code: "A0G0G05"
+  - name: "大官屯站"
+    code: "A0G0G06"
+  - name: "本溪站"
+    code: "A0G0G07"
+  - name: "灵山站"
+    code: "A0G0G08"
+  - name: "霍林河站"
+    code: "A0G0G09"
+  - name: "阜新站"
+    code: "A0G0G0A"
+  - name: "新港站"
+    code: "A0G0G0B"
+  - name: "古冶站"
+    code: "A0G0G0C"
+  - name: "阳泉站"
+    code: "A0G0G0D"
+  - name: "白羊墅站"
+    code: "A0G0G0E"
+  - name: "云岗西站"
+    code: "A0G0G0F"
+  - name: "新高山站"
+    code: "A0G0G0G"
+  - name: "大同东站"
+    code: "A0G0G0H"
+  - name: "口泉站"
+    code: "A0G0G0I"
+  - name: "北周庄站"
+    code: "A0G0G0J"
+  - name: "大新站"
+    code: "A0G0G0K"
+  - name: "古交站"
+    code: "A0G0G0L"
+  - name: "玉门沟站"
+    code: "A0G0G0M"
+  - name: "介休站"
+    code: "A0G0G0N"
+  - name: "白云鄂博站"
+    code: "A0G0G0O"
+  - name: "万水泉站"
+    code: "A0G0G0P"
+  - name: "嘉峰站"
+    code: "A0G0G0Q"
+  - name: "晋城北站"
+    code: "A0G0G0R"
+  - name: "长冶北站"
+    code: "A0G0G0S"
+  - name: "平顶山东站"
+    code: "A0G0G0T"
+  - name: "武昌东站"
+    code: "A0G0G0U"
+  - name: "黄岛站"
+    code: "A0G0G0V"
+  - name: "日照站"
+    code: "A0G0G0W"
+  - name: "连云港东站"
+    code: "A0G0G0X"
+  - name: "潘集西站"
+    code: "A0G0G0Y"
+  - name: "湛江站"
+    code: "A0G0G0Z" 
